@@ -17,5 +17,5 @@ HAVING COUNT(p.id) = (                   -- майже те саме що WHERE
         SELECT COUNT(ID) AS PROJECTCOUNT --кількість проектів на клієнта
         FROM PROJECT
         GROUP BY CLIENT_ID
-    )
+    ) as SubQuery
 )
