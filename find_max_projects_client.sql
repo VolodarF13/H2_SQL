@@ -19,4 +19,3 @@ HAVING COUNT(p.id) = (                   -- майже те саме що WHERE
         GROUP BY CLIENT_ID
     ) as SubQuery
 )
-
