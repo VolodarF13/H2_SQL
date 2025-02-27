@@ -21,3 +21,4 @@ JOIN project_worker pw ON p.ID = pw.project_id
 JOIN worker w ON pw.worker_id = w.ID
 GROUP BY p.ID, p.start_date,  p.finish_date
 ORDER BY PRICE DESC;
+

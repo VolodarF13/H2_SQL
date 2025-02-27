@@ -68,3 +68,4 @@ INSERT INTO project_worker (PROJECT_ID, WORKER_ID) VALUES
 (9, 1),
 (9, 6),
 (10, 4);
+
